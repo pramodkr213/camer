@@ -65,17 +65,17 @@ class _DashBoardState extends State<DashBoard> {
                   'Test'
                 )
             ),
-            SizedBox(
-              height: 25.0,
-            ),
-            ElevatedButton(
-                onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) =>MainPage()));
-                },
-                child: Text(
-                  'Test-1'
-                )
-            )
+            // SizedBox(
+            //   height: 25.0,
+            // ),
+            // ElevatedButton(
+            //     onPressed: () {
+            //       Navigator.push(context, MaterialPageRoute(builder: (context) =>MainPage()));
+            //     },
+            //     child: Text(
+            //       'Test-1'
+            //     )
+            // )
           ],
         ),
       ),
