@@ -51,32 +51,9 @@ class _DashBoardState extends State<DashBoard> {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => MyHomePage(title: 'Camera Camera 3.0')));
               },
               child: Text(
-                  'Cam-3'
+                  'Cam-1'
               ),
             ),
-            // SizedBox(
-            //   height: 25.0,
-            // ),
-            // ElevatedButton(
-            //   onPressed: () {
-            //     // Navigator.push(context, MaterialPageRoute(builder: (context) => CameraApp()));
-            //     Navigator.push(context, MaterialPageRoute(builder: (context) => cameraScreen()));
-            //   },
-            //   child: Text(
-            //     'Cam-1'
-            //   ),
-            // ),
-            // SizedBox(
-            //   height: 25.0,
-            // ),
-            // ElevatedButton(
-            //   onPressed: () {
-            //     Navigator.push(context, MaterialPageRoute(builder: (context) => DisplayPictureScreen(imagePath: '',)));
-            //   },
-            //     child: Text(
-            //       'Cam-2'
-            //     ),
-            // ),
             SizedBox(
               height: 25.0,
             ),
