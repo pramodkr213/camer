@@ -62,7 +62,7 @@ class _DashBoardState extends State<DashBoard> {
                   Navigator.push(context, MaterialPageRoute(builder: (context) =>Compress_Img()));
                 },
                 child: Text(
-                  'Test'
+                  'Compressed_imgs.'
                 )
             ),
             // SizedBox(
